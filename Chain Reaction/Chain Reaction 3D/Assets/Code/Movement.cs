@@ -45,12 +45,8 @@ public class Movement : MonoBehaviour
     void UpdateMouse()
     {
         Vector2 targetMouseDelta = new Vector2(Input.GetAxis("Mouse X"), Input.GetAxis("Mouse Y"));
- 
         _currentMouseDelta = Vector2.SmoothDamp(_currentMouseDelta, targetMouseDelta, ref _currentMouseDeltaVelocity, mouseSmoothTime);
- 
         _cameraCap -= _currentMouseDelta.y * mouseSensitivity;
-        
-        Debug.Log(_currentMouseDelta.x);
         playerCamera.localEulerAngles = Vector3.right * _cameraCap;
         transform.Rotate(Vector3.up * _currentMouseDelta.x);
     }
@@ -58,18 +54,12 @@ public class Movement : MonoBehaviour
     void UpdateMove()
     {
         _isGrounded = Physics.CheckSphere(groundCheck.position, 0.2f, ground);
- 
         Vector2 targetDir = new Vector2(Input.GetAxisRaw("Horizontal"), Input.GetAxisRaw("Vertical"));
         targetDir.Normalize();
- 
         _currentDir = Vector2.SmoothDamp(_currentDir, targetDir, ref _currentDirVelocity, moveSmoothTime);
- 
         _velocity += gravity * 2f * Time.deltaTime;
- 
         Vector3 velocity = (transform.forward * _currentDir.y + transform.right * _currentDir.x) * speed + Vector3.up * _velocity;
- 
         _controller.Move(velocity * Time.deltaTime);
- 
         if (_isGrounded && Input.GetButtonDown("Jump"))
         {
             _velocity = Mathf.Sqrt(jumpHeight * -2f * gravity);
