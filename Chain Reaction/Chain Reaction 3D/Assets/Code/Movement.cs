@@ -35,13 +35,13 @@ public class Movement : MonoBehaviour
             Cursor.visible = true;
         }
     }
- 
+    
     void Update()
     {
         UpdateMouse();
         UpdateMove();
     }
- 
+ //below you can see how we attached the camera movemovement
     void UpdateMouse()
     {
         Vector2 targetMouseDelta = new Vector2(Input.GetAxis("Mouse X"), Input.GetAxis("Mouse Y"));
@@ -51,13 +51,10 @@ public class Movement : MonoBehaviour
         _cameraCap -= _currentMouseDelta.y * mouseSensitivity;
         
         Debug.Log(_currentMouseDelta.x);
-        //_cameraCap = Mathf.Clamp(_cameraCap, -90.0f, 90.0f);
- 
         playerCamera.localEulerAngles = Vector3.right * _cameraCap;
- 
-        transform.Rotate(Vector3.up * _currentMouseDelta.x, mouseSensitivity);
+        transform.Rotate(Vector3.up * _currentMouseDelta.x);
     }
- 
+ //below you can see the player movement 
     void UpdateMove()
     {
         _isGrounded = Physics.CheckSphere(groundCheck.position, 0.2f, ground);
