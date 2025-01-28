@@ -49,8 +49,9 @@ public class Movement : MonoBehaviour
         _currentMouseDelta = Vector2.SmoothDamp(_currentMouseDelta, targetMouseDelta, ref _currentMouseDeltaVelocity, mouseSmoothTime);
  
         _cameraCap -= _currentMouseDelta.y * mouseSensitivity;
- 
-        _cameraCap = Mathf.Clamp(_cameraCap, -90.0f, 90.0f);
+        
+        Debug.Log(_currentMouseDelta.x);
+        //_cameraCap = Mathf.Clamp(_cameraCap, -90.0f, 90.0f);
  
         playerCamera.localEulerAngles = Vector3.right * _cameraCap;
  
