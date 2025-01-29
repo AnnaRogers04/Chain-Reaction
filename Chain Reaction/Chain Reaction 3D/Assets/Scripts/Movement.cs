@@ -25,7 +25,7 @@ public class Movement : MonoBehaviour
     Vector2 _currentDirVelocity;
     Vector3 Velocity;
  
-    void Start()
+    private void Start()
     {
         _controller = GetComponent<CharacterController>();
  
@@ -36,22 +36,28 @@ public class Movement : MonoBehaviour
         }
     }
     
-    void Update()
+    private void Update()
     {
         UpdateMouse();
         UpdateMove();
     }
  //below you can see how we attached the camera movemovement
-    void UpdateMouse()
-    {
-        Vector2 targetMouseDelta = new Vector2(Input.GetAxis("Mouse X"), Input.GetAxis("Mouse Y"));
-        _currentMouseDelta = Vector2.SmoothDamp(_currentMouseDelta, targetMouseDelta, ref _currentMouseDeltaVelocity, mouseSmoothTime);
-        _cameraCap -= _currentMouseDelta.y * mouseSensitivity;
-        playerCamera.localEulerAngles = Vector3.right * _cameraCap;
-        transform.Rotate(Vector3.up * _currentMouseDelta.x);
-    }
+
+
+ private void UpdateMouse()
+ {
+     Vector2 targetMouseDelta = new Vector2(Input.GetAxis("Mouse X"), Input.GetAxis("Mouse Y"));
+     _currentMouseDelta = Vector2.SmoothDamp(_currentMouseDelta, targetMouseDelta, ref _currentMouseDeltaVelocity,
+         mouseSmoothTime);
+     transform.Rotate(Vector3.up * _currentMouseDelta.x * mouseSensitivity);
+     _cameraCap -= _currentMouseDelta.y * mouseSensitivity;
+     _cameraCap = Mathf.Clamp(_cameraCap, -90f, 90f); 
+     playerCamera.localEulerAngles = Vector3.right * _cameraCap;
+ }
+
+
  //below you can see the player movement 
-    void UpdateMove()
+    private void UpdateMove()
     {
         _isGrounded = Physics.CheckSphere(groundCheck.position, 0.2f, ground);
         Vector2 targetDir = new Vector2(Input.GetAxisRaw("Horizontal"), Input.GetAxisRaw("Vertical"));
