@@ -2978,3 +2978,1002 @@ AssetImportParameters requested are different than current active one (requested
   custom:scripting/monoscript/fileName/Movement.cs: f4b8b2d2a1de9c50c30687c0a002a10c -> 1bc12bc9370e727baa54e145392501fb
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
   custom:scripting/precompiled-assembly-types:Assembly-CSharp: 006f7ba45a85b8117147aa1e66938c79 -> 0c028cdeb79e7e69c2c6465800534e76
+========================================================================
+Received Prepare
+Caller must complete domain reload
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.590 seconds
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.997 seconds
+Domain Reload Profiling: 2584ms
+	BeginReloadAssembly (185ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (6ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (40ms)
+	RebuildCommonClasses (40ms)
+	RebuildNativeTypeToScriptingClass (13ms)
+	initialDomainReloadingComplete (36ms)
+	LoadAllAssembliesAndSetupDomain (312ms)
+		LoadAssemblies (388ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (27ms)
+			TypeCache.Refresh (10ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (8ms)
+			ResolveRequiredComponents (6ms)
+	FinalizeReload (1998ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (428ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (6ms)
+			SetLoadedEditorAssemblies (5ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (60ms)
+			ProcessInitializeOnLoadAttributes (331ms)
+			ProcessInitializeOnLoadMethodAttributes (20ms)
+			AfterProcessingInitializeOnLoad (6ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (6ms)
+Refreshing native plugins compatible for Editor in 3.51 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3095 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 14 unused Assets / (28.5 KB). Loaded Objects now: 3686.
+Memory consumption went from 118.5 MB to 118.5 MB.
+Total: 2.638400 ms (FindLiveObjects: 0.183200 ms CreateObjectMapping: 0.082000 ms MarkObjects: 2.337700 ms  DeleteObjects: 0.034500 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:scripting/monoscript/fileName/Holding items.cs: b21687ddb03d73bd9f0c1daecb9714de -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:scripting/monoscript/fileName/NewBehaviourScript.cs: 854be57a593bde74a27cc6a4e94cf976 -> 
+  custom:scripting/monoscript/fileName/Holding.cs: 3eedfd2bf1b819c32b42ba393e582fef -> 
+  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/ObjectPickup.cs: bf6860b91a9e46fa73af4f21d4357242 -> 
+  custom:scripting/monoscript/fileName/Movement.cs: f4b8b2d2a1de9c50c30687c0a002a10c -> 1bc12bc9370e727baa54e145392501fb
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/precompiled-assembly-types:Assembly-CSharp: 006f7ba45a85b8117147aa1e66938c79 -> 0c028cdeb79e7e69c2c6465800534e76
+========================================================================
+Received Prepare
+Caller must complete domain reload
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.448 seconds
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.872 seconds
+Domain Reload Profiling: 1317ms
+	BeginReloadAssembly (164ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (5ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (35ms)
+	RebuildCommonClasses (25ms)
+	RebuildNativeTypeToScriptingClass (8ms)
+	initialDomainReloadingComplete (27ms)
+	LoadAllAssembliesAndSetupDomain (222ms)
+		LoadAssemblies (288ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (22ms)
+			TypeCache.Refresh (10ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (7ms)
+			ResolveRequiredComponents (4ms)
+	FinalizeReload (872ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (370ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (5ms)
+			SetLoadedEditorAssemblies (4ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (54ms)
+			ProcessInitializeOnLoadAttributes (283ms)
+			ProcessInitializeOnLoadMethodAttributes (17ms)
+			AfterProcessingInitializeOnLoad (6ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (8ms)
+Refreshing native plugins compatible for Editor in 2.91 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3095 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 14 unused Assets / (28.5 KB). Loaded Objects now: 3689.
+Memory consumption went from 118.5 MB to 118.5 MB.
+Total: 2.448300 ms (FindLiveObjects: 0.182300 ms CreateObjectMapping: 0.073000 ms MarkObjects: 2.159800 ms  DeleteObjects: 0.032300 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:scripting/monoscript/fileName/Holding items.cs: b21687ddb03d73bd9f0c1daecb9714de -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:scripting/monoscript/fileName/NewBehaviourScript.cs: 854be57a593bde74a27cc6a4e94cf976 -> 
+  custom:scripting/monoscript/fileName/Holding.cs: 3eedfd2bf1b819c32b42ba393e582fef -> 
+  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/ObjectPickup.cs: bf6860b91a9e46fa73af4f21d4357242 -> 
+  custom:scripting/monoscript/fileName/Movement.cs: f4b8b2d2a1de9c50c30687c0a002a10c -> 1bc12bc9370e727baa54e145392501fb
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/precompiled-assembly-types:Assembly-CSharp: 006f7ba45a85b8117147aa1e66938c79 -> 0c028cdeb79e7e69c2c6465800534e76
+========================================================================
+Received Import Request.
+  Time since last request: 1872.695870 seconds.
+  path: Assets/Scenes/SampleScene.unity
+  artifactKey: Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Scenes/SampleScene.unity using Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+ -> (artifact id: 'd7f7211d5c5f6edc8e8b2d4ba65772cd') in 0.174482 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000045 seconds.
+  path: Assets/Downloaded assets/LowPolyDungeonsLite/Models/Bottle_05.fbx
+  artifactKey: Guid(1f3ab9073fa6aed4bbec9d3a54b89a27) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Downloaded assets/LowPolyDungeonsLite/Models/Bottle_05.fbx using Guid(1f3ab9073fa6aed4bbec9d3a54b89a27) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+ -> (artifact id: 'cbbc8d8b9b13e0d25df41739e0dd6a50') in 0.177596 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000104 seconds.
+  path: Assets/Downloaded assets/LowPolyDungeonsLite/Prefabs/Pot_01.prefab
+  artifactKey: Guid(616fdaa7dbff40e4f91c695be15f9f4f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Downloaded assets/LowPolyDungeonsLite/Prefabs/Pot_01.prefab using Guid(616fdaa7dbff40e4f91c695be15f9f4f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+ -> (artifact id: '2f78abdf791c63ec09168ba781199b77') in 0.071922 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Downloaded assets/LowPolyDungeonsLite/Prefabs/Light_08.prefab
+  artifactKey: Guid(5fbfbee0f9885764383291c4c5e18668) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Downloaded assets/LowPolyDungeonsLite/Prefabs/Light_08.prefab using Guid(5fbfbee0f9885764383291c4c5e18668) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+ -> (artifact id: 'd3141527d3846e07a534766d5e3a146c') in 0.060791 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Downloaded assets/LowPolyDungeonsLite/Models/Ground_03.fbx
+  artifactKey: Guid(9cf4216d74f9e92458acdc136e73dd07) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Downloaded assets/LowPolyDungeonsLite/Models/Ground_03.fbx using Guid(9cf4216d74f9e92458acdc136e73dd07) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+ -> (artifact id: '849e0de9e797d296c4ce4d4ac6091a88') in 0.054095 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/Downloaded assets/Low Poly Pack - Environment Lite/Scenes/Environment.unity
+  artifactKey: Guid(eca1d745e74c8854faa7b7eb71473e4f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Downloaded assets/Low Poly Pack - Environment Lite/Scenes/Environment.unity using Guid(eca1d745e74c8854faa7b7eb71473e4f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+ -> (artifact id: '397fe160485719b82f41f0cd9352d3ba') in 0.022784 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/Downloaded assets/Low Poly Pack - Environment Lite/Prefabs/Bridge_4_2.prefab
+  artifactKey: Guid(99687c5f5b7b7fc47b072294a2888938) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Downloaded assets/Low Poly Pack - Environment Lite/Prefabs/Bridge_4_2.prefab using Guid(99687c5f5b7b7fc47b072294a2888938) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+ -> (artifact id: '739a9406926327db9a51f8e900e35f15') in 0.092009 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Downloaded assets/LowPolyDungeonsLite/Models/Column_01.fbx
+  artifactKey: Guid(1bff7d79ae1b141448f2db1e49eb3c81) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Downloaded assets/LowPolyDungeonsLite/Models/Column_01.fbx using Guid(1bff7d79ae1b141448f2db1e49eb3c81) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+ -> (artifact id: 'db5205c8cead8c2ac88cabc84c1aa323') in 0.136655 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Downloaded assets/LowPolyDungeonsLite/Textures/LowPolyDungeonsLite_Texture_01.png
+  artifactKey: Guid(3368dcc05b2e368459930672ab30f04b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Downloaded assets/LowPolyDungeonsLite/Textures/LowPolyDungeonsLite_Texture_01.png using Guid(3368dcc05b2e368459930672ab30f04b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+ -> (artifact id: '7cd29553d1fcb99a38d0721f3d1bea8e') in 0.140248 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Downloaded assets/AurynSky/Gems Ultimate Pack/Materials/Red.mat
+  artifactKey: Guid(6a6944f4904547e4fb039789da5fcd85) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Downloaded assets/AurynSky/Gems Ultimate Pack/Materials/Red.mat using Guid(6a6944f4904547e4fb039789da5fcd85) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+ -> (artifact id: '82b99cbcc7b8b48589b6b7a89eba8b3b') in 0.088957 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Downloaded assets/AurynSky/Gems Ultimate Pack/Models/5 Side Diamond.fbx
+  artifactKey: Guid(aa56074584965524093e852b02a99de7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Downloaded assets/AurynSky/Gems Ultimate Pack/Models/5 Side Diamond.fbx using Guid(aa56074584965524093e852b02a99de7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+ -> (artifact id: '0ab13dba62f53e96d351bd0d26183fb6') in 0.090988 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Downloaded assets/LowPolyDungeonsLite/Models/Light_08.fbx
+  artifactKey: Guid(a572b7e4c3d8eb446823b4269e41cb5d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Downloaded assets/LowPolyDungeonsLite/Models/Light_08.fbx using Guid(a572b7e4c3d8eb446823b4269e41cb5d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+ -> (artifact id: 'eb1328be43163cfb729a8da4ce5d01f8') in 0.051689 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Downloaded assets/AurynSky/Gems Ultimate Pack/Models/BeveledStar.fbx
+  artifactKey: Guid(fce0ecff534816b49af71ef31033c259) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Downloaded assets/AurynSky/Gems Ultimate Pack/Models/BeveledStar.fbx using Guid(fce0ecff534816b49af71ef31033c259) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+ -> (artifact id: 'd8c2a14b0fd6909fcf95f38939855a39') in 0.042361 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Downloaded assets/AurynSky/Gems Ultimate Pack/Models/Diamondo5side.fbx
+  artifactKey: Guid(6217dd83a11a7df46b82193c138a8ce2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Downloaded assets/AurynSky/Gems Ultimate Pack/Models/Diamondo5side.fbx using Guid(6217dd83a11a7df46b82193c138a8ce2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+ -> (artifact id: 'b1e3106005a8222575481b2487ce7755') in 0.036894 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Downloaded assets/Low Poly Pack - Environment Lite/Prefabs/Cloud_1_5.prefab
+  artifactKey: Guid(8ce7acfbc4a908940909bf2fcbc1233d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Downloaded assets/Low Poly Pack - Environment Lite/Prefabs/Cloud_1_5.prefab using Guid(8ce7acfbc4a908940909bf2fcbc1233d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+ -> (artifact id: '356e0d6870d86fa7580c62455fb86a95') in 0.052916 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000069 seconds.
+  path: Assets/Downloaded assets/LowPolyDungeonsLite/Models/Wood_02.fbx
+  artifactKey: Guid(e8f98bd8e8aa901469815fc68e3094aa) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Downloaded assets/LowPolyDungeonsLite/Models/Wood_02.fbx using Guid(e8f98bd8e8aa901469815fc68e3094aa) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+ -> (artifact id: '98f1ca00d490677b13e4b521358c3891') in 0.051015 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Downloaded assets/Low Poly Pack - Environment Lite/Prefabs/Grass_2_1.prefab
+  artifactKey: Guid(288a99e50b7d40e479400f230d31fb28) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Downloaded assets/Low Poly Pack - Environment Lite/Prefabs/Grass_2_1.prefab using Guid(288a99e50b7d40e479400f230d31fb28) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+ -> (artifact id: 'eb1b889e5da6d3babcc17ffaab85759c') in 0.055682 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Downloaded assets/LowPolyDungeonsLite/Models/WallDecor_05.fbx
+  artifactKey: Guid(cde161403e4daa841897213ea28384a5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Downloaded assets/LowPolyDungeonsLite/Models/WallDecor_05.fbx using Guid(cde161403e4daa841897213ea28384a5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+ -> (artifact id: 'cf4f29fa1f606f75787e49c9d6225262') in 0.050639 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Downloaded assets/LowPolyDungeonsLite/Prefabs/Rock_01.prefab
+  artifactKey: Guid(cfb04594231799d4092ee0064447ce94) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Downloaded assets/LowPolyDungeonsLite/Prefabs/Rock_01.prefab using Guid(cfb04594231799d4092ee0064447ce94) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+ -> (artifact id: 'daa01fe71b78fc86e938e852a4cfb48b') in 0.057152 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Downloaded assets/LowPolyDungeonsLite/Prefabs/Jug_02.prefab
+  artifactKey: Guid(44b00c7db33473946ad48053b41e081f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Downloaded assets/LowPolyDungeonsLite/Prefabs/Jug_02.prefab using Guid(44b00c7db33473946ad48053b41e081f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+ -> (artifact id: '8259e1c96fbc60763ebdb1aad67b0411') in 0.060840 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/Downloaded assets/AurynSky/Gems Ultimate Pack/Models/Diamondo.fbx
+  artifactKey: Guid(911b2aca4190de843ba6fc029bf3734d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Downloaded assets/AurynSky/Gems Ultimate Pack/Models/Diamondo.fbx using Guid(911b2aca4190de843ba6fc029bf3734d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+ -> (artifact id: '64f6ba7bf3be97495f7994f7f2dbe3bf') in 0.037423 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Downloaded assets/AurynSky/Gems Ultimate Pack/Prefabs/SoftStar.prefab
+  artifactKey: Guid(8f226a393243a0141bace5fd6b60bafa) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Downloaded assets/AurynSky/Gems Ultimate Pack/Prefabs/SoftStar.prefab using Guid(8f226a393243a0141bace5fd6b60bafa) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+ -> (artifact id: '35431011ea8ab3861a7a9fb885bd577e') in 0.022838 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.000073 seconds.
+  path: Assets/Downloaded assets/AurynSky/Gems Ultimate Pack/Prefabs/HardStar.prefab
+  artifactKey: Guid(c4bf8b30fce268044a786a8600922324) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Downloaded assets/AurynSky/Gems Ultimate Pack/Prefabs/HardStar.prefab using Guid(c4bf8b30fce268044a786a8600922324) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+ -> (artifact id: 'de41c4ac4f3e092523d04916b0dd3570') in 0.023526 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.000086 seconds.
+  path: Assets/Downloaded assets/AurynSky/Gems Ultimate Pack/Models/Spiral.fbx
+  artifactKey: Guid(973011b81536fe2408cc13aa49700e3b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Downloaded assets/AurynSky/Gems Ultimate Pack/Models/Spiral.fbx using Guid(973011b81536fe2408cc13aa49700e3b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+ -> (artifact id: '196c7b4224f9b7b4fc1e3ab526cdca88') in 0.033109 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Downloaded assets/LowPolyDungeonsLite/Models/Ground_01.fbx
+  artifactKey: Guid(542f964f9d702f74d949482dfe0e0e8f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Downloaded assets/LowPolyDungeonsLite/Models/Ground_01.fbx using Guid(542f964f9d702f74d949482dfe0e0e8f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+ -> (artifact id: 'b17f189e4d1baaa151c51f7111430883') in 0.040764 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000095 seconds.
+  path: Assets/Downloaded assets/LowPolyDungeonsLite/Prefabs/Wall_27.prefab
+  artifactKey: Guid(2f6c4572e07a60b43b00e1c4f489a806) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Downloaded assets/LowPolyDungeonsLite/Prefabs/Wall_27.prefab using Guid(2f6c4572e07a60b43b00e1c4f489a806) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+ -> (artifact id: 'e89c9db29ec0f29c15e21237333207b9') in 0.055782 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/Downloaded assets/Low Poly Pack - Environment Lite/Materials/Albedo.mat
+  artifactKey: Guid(130d7378e70dbc14a9dded2d547168ee) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Downloaded assets/Low Poly Pack - Environment Lite/Materials/Albedo.mat using Guid(130d7378e70dbc14a9dded2d547168ee) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+ -> (artifact id: 'de3f83c89e1f4eee6950170c50d43e49') in 0.042755 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000080 seconds.
+  path: Assets/Downloaded assets/Low Poly Pack - Environment Lite/Prefabs/Rock_1_15.prefab
+  artifactKey: Guid(1d5f3ac72f6110748ba6fc868876f5a4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Downloaded assets/Low Poly Pack - Environment Lite/Prefabs/Rock_1_15.prefab using Guid(1d5f3ac72f6110748ba6fc868876f5a4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+ -> (artifact id: '618aee7f4605f16143cb226c944de58b') in 0.058689 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Downloaded assets/LowPolyDungeonsLite/Prefabs/Column_01.prefab
+  artifactKey: Guid(2f3f7d4927009b84583c02fcbc509217) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Downloaded assets/LowPolyDungeonsLite/Prefabs/Column_01.prefab using Guid(2f3f7d4927009b84583c02fcbc509217) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+ -> (artifact id: '03ff811cf6f0e17d34588a769bb385b7') in 0.042092 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000058 seconds.
+  path: Assets/Downloaded assets/AurynSky/Gems Ultimate Pack/Materials/Purple.mat
+  artifactKey: Guid(152a75409221b6244be7b0063172b666) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Downloaded assets/AurynSky/Gems Ultimate Pack/Materials/Purple.mat using Guid(152a75409221b6244be7b0063172b666) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+ -> (artifact id: '4cca62ba3ba7ac4dd4d4a16ff9361ba7') in 0.026034 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Downloaded assets/Low Poly Pack - Environment Lite/Prefabs/Headstone_6_1.prefab
+  artifactKey: Guid(be70ab8c831a5934daabc2b5fff57616) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Downloaded assets/Low Poly Pack - Environment Lite/Prefabs/Headstone_6_1.prefab using Guid(be70ab8c831a5934daabc2b5fff57616) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+ -> (artifact id: 'd9038dc81a9d1ff84e0ee64b50e2995e') in 0.058656 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Downloaded assets/Low Poly Pack - Environment Lite/Prefabs/Barrel_1_5.prefab
+  artifactKey: Guid(3e11d8992c7896044a5461e7cf12c996) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Downloaded assets/Low Poly Pack - Environment Lite/Prefabs/Barrel_1_5.prefab using Guid(3e11d8992c7896044a5461e7cf12c996) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+ -> (artifact id: '8f9f72da2f65b80ab472a20565f95185') in 0.061500 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Downloaded assets/AurynSky/Gems Ultimate Pack/Materials/Blue.mat
+  artifactKey: Guid(d3fdd53a2b5dd904fad8d824266a4cad) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Downloaded assets/AurynSky/Gems Ultimate Pack/Materials/Blue.mat using Guid(d3fdd53a2b5dd904fad8d824266a4cad) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+ -> (artifact id: 'e80930b82b916e95b5d308b3d86705b5') in 0.043118 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Downloaded assets/Low Poly Pack - Environment Lite/Models/Boxes/Barrel_1_5.fbx
+  artifactKey: Guid(804f7745159f9764eac6bd857ee257dc) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Downloaded assets/Low Poly Pack - Environment Lite/Models/Boxes/Barrel_1_5.fbx using Guid(804f7745159f9764eac6bd857ee257dc) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+ -> (artifact id: '6ec6f03a86eb0f4c2743bb99ecb38103') in 0.035918 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Downloaded assets/Low Poly Pack - Environment Lite/Models/Boxes/Bag_1_1.fbx
+  artifactKey: Guid(b742971ad36a58746923127f7331393d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Downloaded assets/Low Poly Pack - Environment Lite/Models/Boxes/Bag_1_1.fbx using Guid(b742971ad36a58746923127f7331393d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+ -> (artifact id: '77268287862871d9c6d5d3abebfe6cba') in 0.050123 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Downloaded assets/Low Poly Pack - Environment Lite/Models/Bridges/Bridge_4_2.fbx
+  artifactKey: Guid(5df7984ec7d115e489379d6c5f095d71) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Downloaded assets/Low Poly Pack - Environment Lite/Models/Bridges/Bridge_4_2.fbx using Guid(5df7984ec7d115e489379d6c5f095d71) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+ -> (artifact id: '2c7c0a5f9481f8381b21ae20289e0c63') in 0.037981 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Downloaded assets/Low Poly Pack - Environment Lite/Models/Headstones/Headstone_4_1.fbx
+  artifactKey: Guid(e5c76cf8c52b6c246b327efbfbebb904) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Downloaded assets/Low Poly Pack - Environment Lite/Models/Headstones/Headstone_4_1.fbx using Guid(e5c76cf8c52b6c246b327efbfbebb904) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+ -> (artifact id: '6c756f1623abc9615f558b5098ab76c5') in 0.035135 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Downloaded assets/Low Poly Pack - Environment Lite/Models/Boxes/Box_1_1.fbx
+  artifactKey: Guid(21dc1e0617907504b9d6aca764f873a6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Downloaded assets/Low Poly Pack - Environment Lite/Models/Boxes/Box_1_1.fbx using Guid(21dc1e0617907504b9d6aca764f873a6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+ -> (artifact id: '9b800e0e63179e8b42578dbd6f6abd8b') in 0.047332 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Downloaded assets/Low Poly Pack - Environment Lite/Models/Fences/Fence_1_5.fbx
+  artifactKey: Guid(ed2f80e79e4b6bf4aa913c238648ab3b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Downloaded assets/Low Poly Pack - Environment Lite/Models/Fences/Fence_1_5.fbx using Guid(ed2f80e79e4b6bf4aa913c238648ab3b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+ -> (artifact id: '9690cc16a691992dec09100aeac2297e') in 0.032681 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000068 seconds.
+  path: Assets/Downloaded assets/Low Poly Pack - Environment Lite/Models/Grass/Grass_2_1.fbx
+  artifactKey: Guid(04388c80a3422e34db320c4baa089c54) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Downloaded assets/Low Poly Pack - Environment Lite/Models/Grass/Grass_2_1.fbx using Guid(04388c80a3422e34db320c4baa089c54) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+ -> (artifact id: '595862556ef7def2b2d623ba156e658b') in 0.032380 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Downloaded assets/Low Poly Pack - Environment Lite/Models/Boxes/Chest_1_7.fbx
+  artifactKey: Guid(d178055267feeae4290bf69923da0f19) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Downloaded assets/Low Poly Pack - Environment Lite/Models/Boxes/Chest_1_7.fbx using Guid(d178055267feeae4290bf69923da0f19) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+ -> (artifact id: '2486e06c7e443dbfe9950a0b19fae992') in 0.035595 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Downloaded assets/LowPolyDungeonsLite/Prefabs/Candle_01.prefab
+  artifactKey: Guid(c79d59d66358e0f45a098f4b8a82f8be) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Downloaded assets/LowPolyDungeonsLite/Prefabs/Candle_01.prefab using Guid(c79d59d66358e0f45a098f4b8a82f8be) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+ -> (artifact id: '26a98eddba22f8526e77f85f1a15a689') in 0.060959 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Downloaded assets/Low Poly Pack - Environment Lite/Prefabs/Mushroom_1_2.prefab
+  artifactKey: Guid(652472ea6528f0d449e98084839f05dd) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Downloaded assets/Low Poly Pack - Environment Lite/Prefabs/Mushroom_1_2.prefab using Guid(652472ea6528f0d449e98084839f05dd) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+ -> (artifact id: 'f55b7b9a08b8fe15819fc9441c997828') in 0.041929 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000062 seconds.
+  path: Assets/Downloaded assets/AurynSky/Gems Ultimate Pack/Prefabs/Diamondo5side.prefab
+  artifactKey: Guid(cd34118c604e29141afea74caecd70f2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Downloaded assets/AurynSky/Gems Ultimate Pack/Prefabs/Diamondo5side.prefab using Guid(cd34118c604e29141afea74caecd70f2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+ -> (artifact id: '6244cd2d8347a506c6018b8613ac4cc1') in 0.025221 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.000129 seconds.
+  path: Assets/Downloaded assets/LowPolyDungeonsLite/Prefabs/Book_09.prefab
+  artifactKey: Guid(92d4430c1aabefa4691079bac409cbf9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Downloaded assets/LowPolyDungeonsLite/Prefabs/Book_09.prefab using Guid(92d4430c1aabefa4691079bac409cbf9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+ -> (artifact id: '8eee1dcfa006b0277f4615e985220a2a') in 0.056904 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Downloaded assets/Low Poly Pack - Environment Lite/Models/Trees/Tree_6_4.fbx
+  artifactKey: Guid(99984e873e2bda64490399d98153ac19) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Downloaded assets/Low Poly Pack - Environment Lite/Models/Trees/Tree_6_4.fbx using Guid(99984e873e2bda64490399d98153ac19) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+ -> (artifact id: 'b6cb9993aa9389d81bd875aef74dee3e') in 0.049509 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/Downloaded assets/Low Poly Pack - Environment Lite/Models/Rocks/Stone_3_2.fbx
+  artifactKey: Guid(b9fdfcd2a330b694fa6e90d86b5193d6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Downloaded assets/Low Poly Pack - Environment Lite/Models/Rocks/Stone_3_2.fbx using Guid(b9fdfcd2a330b694fa6e90d86b5193d6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+ -> (artifact id: 'a591b417655f1a78f4abc7ec25ab29d2') in 0.051856 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Downloaded assets/Low Poly Pack - Environment Lite/Models/Trees/Bush_3_2.fbx
+  artifactKey: Guid(24a39ec2025646f48ac3940b48989962) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Downloaded assets/Low Poly Pack - Environment Lite/Models/Trees/Bush_3_2.fbx using Guid(24a39ec2025646f48ac3940b48989962) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+ -> (artifact id: '09347764191b5e008343c2f31ddfa077') in 0.049613 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Downloaded assets/Low Poly Pack - Environment Lite/Models/Rocks/Stone_1_8.fbx
+  artifactKey: Guid(20a85cd84b0050544baabc69311092b7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Downloaded assets/Low Poly Pack - Environment Lite/Models/Rocks/Stone_1_8.fbx using Guid(20a85cd84b0050544baabc69311092b7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+ -> (artifact id: '3a27705b2c2f5d27ad4ef196b5662317') in 0.055955 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Downloaded assets/Low Poly Pack - Environment Lite/Prefabs/Stone_1_7.prefab
+  artifactKey: Guid(13a1e6fe1cb0ec14d88c0e6750e42fae) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Downloaded assets/Low Poly Pack - Environment Lite/Prefabs/Stone_1_7.prefab using Guid(13a1e6fe1cb0ec14d88c0e6750e42fae) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+ -> (artifact id: '1dd8029ae95dd1e82c176b333a33915b') in 0.059421 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Downloaded assets/Low Poly Pack - Environment Lite/Prefabs/Wall_1_1.prefab
+  artifactKey: Guid(aa180dcf2cbb78344bdde3e825cd519a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Downloaded assets/Low Poly Pack - Environment Lite/Prefabs/Wall_1_1.prefab using Guid(aa180dcf2cbb78344bdde3e825cd519a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+ -> (artifact id: 'fb3efdb26693760935c7126b3d38b71a') in 0.060388 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/Downloaded assets/AurynSky/Gems Ultimate Pack/Prefabs/Hexgon.prefab
+  artifactKey: Guid(676e107eeafc5524b97910d76516565d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Downloaded assets/AurynSky/Gems Ultimate Pack/Prefabs/Hexgon.prefab using Guid(676e107eeafc5524b97910d76516565d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+ -> (artifact id: '6472600d1d0ef6bdc56acb31a7e9db36') in 0.023634 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Downloaded assets/LowPolyDungeonsLite/Prefabs/Mud_04.prefab
+  artifactKey: Guid(9d96437b1954fd74c84a5e1999bb2cb1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Downloaded assets/LowPolyDungeonsLite/Prefabs/Mud_04.prefab using Guid(9d96437b1954fd74c84a5e1999bb2cb1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+ -> (artifact id: 'c336bef713854e3db86a4ba22b6fa29c') in 0.057447 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Downloaded assets/LowPolyDungeonsLite/Models/Chair_05.fbx
+  artifactKey: Guid(d51ff80ee7d069542b138da061286520) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Downloaded assets/LowPolyDungeonsLite/Models/Chair_05.fbx using Guid(d51ff80ee7d069542b138da061286520) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+ -> (artifact id: '47ea2a018c138e03d057672dfe4ba673') in 0.042918 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Downloaded assets/LowPolyDungeonsLite/Models/Rock_01.fbx
+  artifactKey: Guid(35b57be42e294d546baff933e1fef874) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Downloaded assets/LowPolyDungeonsLite/Models/Rock_01.fbx using Guid(35b57be42e294d546baff933e1fef874) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+ -> (artifact id: '9b02aec9286e0ac2e45f0bb5e55830b8') in 0.038305 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Downloaded assets/Low Poly Pack - Environment Lite/Prefabs/Stump_3_3.prefab
+  artifactKey: Guid(d89d7598597bf9f41b905638b7419177) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Downloaded assets/Low Poly Pack - Environment Lite/Prefabs/Stump_3_3.prefab using Guid(d89d7598597bf9f41b905638b7419177) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+ -> (artifact id: 'd520ca3ae0ab29f0c6ee6278ccd674e4') in 0.062804 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/Downloaded assets/Low Poly Pack - Environment Lite/Models/Gates/Gate_1_1.fbx
+  artifactKey: Guid(aa3f6ba4d5d183c49a799bc292b04632) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Downloaded assets/Low Poly Pack - Environment Lite/Models/Gates/Gate_1_1.fbx using Guid(aa3f6ba4d5d183c49a799bc292b04632) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+ -> (artifact id: 'afcf7c99c947ac9b98cc12a2c25b1334') in 0.038844 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 19
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Downloaded assets/Low Poly Pack - Environment Lite/Prefabs/Bottle_1_6.prefab
+  artifactKey: Guid(860c4fbd249df314696fe6793fe2768a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Downloaded assets/Low Poly Pack - Environment Lite/Prefabs/Bottle_1_6.prefab using Guid(860c4fbd249df314696fe6793fe2768a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+ -> (artifact id: '09581ebe73b8720183d596d78f3edb8e') in 0.046628 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Downloaded assets/AurynSky/Gems Ultimate Pack/Models/Penta.fbx
+  artifactKey: Guid(34a866017115e1f4693b2328671afe14) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Downloaded assets/AurynSky/Gems Ultimate Pack/Models/Penta.fbx using Guid(34a866017115e1f4693b2328671afe14) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+ -> (artifact id: '145f58000329435cce4c71bafa1f6e4c') in 0.038101 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Downloaded assets/Low Poly Pack - Environment Lite/Prefabs/Stone_1_6.prefab
+  artifactKey: Guid(6964eeab119d6ac48ab7269b8f0508c5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Downloaded assets/Low Poly Pack - Environment Lite/Prefabs/Stone_1_6.prefab using Guid(6964eeab119d6ac48ab7269b8f0508c5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+ -> (artifact id: '92ccd472d7703234cb05b454ed12d9a2') in 0.045587 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Downloaded assets/LowPolyDungeonsLite/Prefabs/WallDecor_05.prefab
+  artifactKey: Guid(725d9061657be724facf6fda9fe05b4f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Downloaded assets/LowPolyDungeonsLite/Prefabs/WallDecor_05.prefab using Guid(725d9061657be724facf6fda9fe05b4f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+ -> (artifact id: '3f3a530b2f65096eb0f4cad85487cd59') in 0.042359 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Downloaded assets/LowPolyDungeonsLite/Materials/LowPolyDungeonsLite_Light.mat
+  artifactKey: Guid(2f12fcec4b3dcc0489472b3a9cfa44c1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Downloaded assets/LowPolyDungeonsLite/Materials/LowPolyDungeonsLite_Light.mat using Guid(2f12fcec4b3dcc0489472b3a9cfa44c1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+ -> (artifact id: 'e051e9580d1fa8ebf47971a9a7d2c48b') in 0.049331 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Downloaded assets/Low Poly Pack - Environment Lite/Prefabs/Tree_6_4.prefab
+  artifactKey: Guid(64e244353f381b34faae5433fd69793f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Downloaded assets/Low Poly Pack - Environment Lite/Prefabs/Tree_6_4.prefab using Guid(64e244353f381b34faae5433fd69793f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+ -> (artifact id: '5d3d849ddf62d23ad2ebc4f69221f516') in 0.043427 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Downloaded assets/LowPolyDungeonsLite/Models/Book_09.fbx
+  artifactKey: Guid(dd85c4003e86ea24b9d5486aa770f3a2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Downloaded assets/LowPolyDungeonsLite/Models/Book_09.fbx using Guid(dd85c4003e86ea24b9d5486aa770f3a2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+ -> (artifact id: 'b82bcc2fa6a3409377b12dc821007a3b') in 0.033663 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Downloaded assets/LowPolyDungeonsLite/Prefabs/Box_02.prefab
+  artifactKey: Guid(e37d55d9adae8724c9dcf1dff5b67578) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Downloaded assets/LowPolyDungeonsLite/Prefabs/Box_02.prefab using Guid(e37d55d9adae8724c9dcf1dff5b67578) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+ -> (artifact id: '1ee032892dcfd08e2de7510bc33b877b') in 0.063257 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000054 seconds.
+  path: Assets/Downloaded assets/AurynSky/Gems Ultimate Pack/Models/SphereGemSmall.fbx
+  artifactKey: Guid(486351f15650ce5408452352641fc317) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Downloaded assets/AurynSky/Gems Ultimate Pack/Models/SphereGemSmall.fbx using Guid(486351f15650ce5408452352641fc317) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+ -> (artifact id: '0b1a5b6ae96bc10b93c62c5707d4a6fd') in 0.032853 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000058 seconds.
+  path: Assets/Downloaded assets/Low Poly Pack - Environment Lite/Models/Headstones/Headstone_6_1.fbx
+  artifactKey: Guid(f6e0a90aca7a3dc4a87d13fcc064bba5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Downloaded assets/Low Poly Pack - Environment Lite/Models/Headstones/Headstone_6_1.fbx using Guid(f6e0a90aca7a3dc4a87d13fcc064bba5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+ -> (artifact id: 'f1755ad42ad64a2311fd172c996a30c9') in 0.035175 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Downloaded assets/AurynSky/Gems Ultimate Pack/Prefabs/4 Side Diamond.prefab
+  artifactKey: Guid(0ed203d298c050b49bfabe788790e1c2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Downloaded assets/AurynSky/Gems Ultimate Pack/Prefabs/4 Side Diamond.prefab using Guid(0ed203d298c050b49bfabe788790e1c2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+ -> (artifact id: '81369c7efe6c835332e3bd270ced3f11') in 0.023545 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.000068 seconds.
+  path: Assets/Downloaded assets/Low Poly Pack - Environment Lite/Prefabs/Flower_1_1.prefab
+  artifactKey: Guid(c42299fb6ecdcf54c84c5367203aa50a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Downloaded assets/Low Poly Pack - Environment Lite/Prefabs/Flower_1_1.prefab using Guid(c42299fb6ecdcf54c84c5367203aa50a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+ -> (artifact id: 'ff961c26c7488e8275d318238655cc77') in 0.040071 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Downloaded assets/AurynSky/Gems Ultimate Pack/Models/Hexgon.fbx
+  artifactKey: Guid(88298ecb4d0fcff45879b1338c17fe54) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Downloaded assets/AurynSky/Gems Ultimate Pack/Models/Hexgon.fbx using Guid(88298ecb4d0fcff45879b1338c17fe54) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+ -> (artifact id: '8b53e6cb5633320da774a97249619951') in 0.035668 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/Downloaded assets/LowPolyDungeonsLite/Prefabs/Particles_Pot.prefab
+  artifactKey: Guid(c0e095fcea4ab9d41bfa1cf75a32235c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Downloaded assets/LowPolyDungeonsLite/Prefabs/Particles_Pot.prefab using Guid(c0e095fcea4ab9d41bfa1cf75a32235c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+ -> (artifact id: '27c6cc0204f3d8aaac093bdccf1b7342') in 0.109025 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 6
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Downloaded assets/AurynSky/Gems Ultimate Pack/Models/Cubie.fbx
+  artifactKey: Guid(8b4719f3fd5020040bdbb5595fda39aa) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Downloaded assets/AurynSky/Gems Ultimate Pack/Models/Cubie.fbx using Guid(8b4719f3fd5020040bdbb5595fda39aa) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+ -> (artifact id: '45dcca34b8f91439a8fe60a83d8deb11') in 0.046245 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Downloaded assets/AurynSky/Gems Ultimate Pack/Models/SoftStar.fbx
+  artifactKey: Guid(bc0cdff0b0fdafc46bbdbda4b3717d71) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Downloaded assets/AurynSky/Gems Ultimate Pack/Models/SoftStar.fbx using Guid(bc0cdff0b0fdafc46bbdbda4b3717d71) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+ -> (artifact id: 'b7c4353fe808297c5eab9aa5fb0b5729') in 0.037664 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Downloaded assets/Low Poly Pack - Environment Lite/Prefabs/Jug_1_1.prefab
+  artifactKey: Guid(3f8628d3168b23b4d85aad52bdf6b92c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Downloaded assets/Low Poly Pack - Environment Lite/Prefabs/Jug_1_1.prefab using Guid(3f8628d3168b23b4d85aad52bdf6b92c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+ -> (artifact id: '99365c7e7045597ddac6c72cc2caf8f8') in 0.061704 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Downloaded assets/Low Poly Pack - Environment Lite/Prefabs/Stone_3_1.prefab
+  artifactKey: Guid(a46c65b8d73e4f94e8c18ab07bad6cd7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Downloaded assets/Low Poly Pack - Environment Lite/Prefabs/Stone_3_1.prefab using Guid(a46c65b8d73e4f94e8c18ab07bad6cd7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+ -> (artifact id: '54907f889bc5ba5dbacf36b01db80418') in 0.044331 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Downloaded assets/Low Poly Pack - Environment Lite/Models/Boxes/Jug_1_1.fbx
+  artifactKey: Guid(0162f283b8ced8d41a27f6cbb117be85) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Downloaded assets/Low Poly Pack - Environment Lite/Models/Boxes/Jug_1_1.fbx using Guid(0162f283b8ced8d41a27f6cbb117be85) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+ -> (artifact id: 'fde2c5014dd264dc90f0d0cec858e5ee') in 0.034659 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Downloaded assets/LowPolyDungeonsLite/Prefabs/Particles_Dust.prefab
+  artifactKey: Guid(ce9b38f12fedb194d8b4177a9d4a66d7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Downloaded assets/LowPolyDungeonsLite/Prefabs/Particles_Dust.prefab using Guid(ce9b38f12fedb194d8b4177a9d4a66d7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+ -> (artifact id: 'fea9e9e77755d94881cf0f05bdbd0c24') in 0.068425 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 6
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Downloaded assets/AurynSky/Gems Ultimate Pack/Materials/Orange.mat
+  artifactKey: Guid(5a9e6cf91cbfc1a4fbc9470cca37b97a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Downloaded assets/AurynSky/Gems Ultimate Pack/Materials/Orange.mat using Guid(5a9e6cf91cbfc1a4fbc9470cca37b97a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+ -> (artifact id: 'd4937adc53a0ca8957a58e3555abbdde') in 0.026899 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Downloaded assets/Low Poly Pack - Environment Lite/Prefabs/Bag_1_1.prefab
+  artifactKey: Guid(771590eb8d0c1a548ab510cb0ea84df0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Downloaded assets/Low Poly Pack - Environment Lite/Prefabs/Bag_1_1.prefab using Guid(771590eb8d0c1a548ab510cb0ea84df0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+ -> (artifact id: '840de94f57504bafb38d3508173b025d') in 0.043731 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Downloaded assets/Low Poly Pack - Environment Lite/Models/Boxes/Chest_2_7.fbx
+  artifactKey: Guid(b7f777cd24c896748a7bafd85c6aed6b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Downloaded assets/Low Poly Pack - Environment Lite/Models/Boxes/Chest_2_7.fbx using Guid(b7f777cd24c896748a7bafd85c6aed6b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+ -> (artifact id: '07e9cdd1065ce355c81148f3c8116fd0') in 0.032282 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 14
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Downloaded assets/AurynSky/Gems Ultimate Pack/Models/CubieBeveled.fbx
+  artifactKey: Guid(6579b708f10e00c448d8ddbc06ba95fe) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Downloaded assets/AurynSky/Gems Ultimate Pack/Models/CubieBeveled.fbx using Guid(6579b708f10e00c448d8ddbc06ba95fe) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+ -> (artifact id: '5f0edef608718b3e14f1220ac7d49c78') in 0.036905 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.014010 seconds.
+  path: Assets/Downloaded assets/Low Poly Pack - Environment Lite/Models/Boxes/Box_2_1.fbx
+  artifactKey: Guid(70eea3c701d6c354f9c7658406af7b32) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Downloaded assets/Low Poly Pack - Environment Lite/Models/Boxes/Box_2_1.fbx using Guid(70eea3c701d6c354f9c7658406af7b32) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+ -> (artifact id: '0f6035de48080ee6ce1933218e821561') in 0.049995 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Downloaded assets/LowPolyDungeonsLite/Prefabs/Ground_03.prefab
+  artifactKey: Guid(fd2de4bd876f4ac4980370e624362931) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Downloaded assets/LowPolyDungeonsLite/Prefabs/Ground_03.prefab using Guid(fd2de4bd876f4ac4980370e624362931) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+ -> (artifact id: 'f90602fec5cfede118b2e517e21a298f') in 0.037994 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Downloaded assets/Low Poly Pack - Environment Lite/Prefabs/Bush_3_2.prefab
+  artifactKey: Guid(2bc9623e59a852748a20574e591ff3d9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Downloaded assets/Low Poly Pack - Environment Lite/Prefabs/Bush_3_2.prefab using Guid(2bc9623e59a852748a20574e591ff3d9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+ -> (artifact id: '368a46840c4d64124e8cd9a1de7568d1') in 0.042924 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Downloaded assets/AurynSky/Gems Ultimate Pack/Models/SphereGemLarge.fbx
+  artifactKey: Guid(3be870bd3141f9741b70abdfb4242cb6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Downloaded assets/AurynSky/Gems Ultimate Pack/Models/SphereGemLarge.fbx using Guid(3be870bd3141f9741b70abdfb4242cb6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+ -> (artifact id: 'a8967fece75e67c42d759edfc7b91a15') in 0.048465 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Downloaded assets/Low Poly Pack - Environment Lite/Models/Bridges/Bridge_1_4.fbx
+  artifactKey: Guid(98012eb183305a941aa5cc13b90386cc) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Downloaded assets/Low Poly Pack - Environment Lite/Models/Bridges/Bridge_1_4.fbx using Guid(98012eb183305a941aa5cc13b90386cc) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+ -> (artifact id: '78b0785d310515fef19538401af75911') in 0.033821 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Downloaded assets/Low Poly Pack - Environment Lite/Models/Gates/Wall_1_1.fbx
+  artifactKey: Guid(fefcebb5897740645942543203b1c6a0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Downloaded assets/Low Poly Pack - Environment Lite/Models/Gates/Wall_1_1.fbx using Guid(fefcebb5897740645942543203b1c6a0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+ -> (artifact id: 'c4c18fd23912d4ab64c2fc0561f3248d') in 0.037357 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Downloaded assets/AurynSky/Gems Ultimate Pack/Models/HardStar.fbx
+  artifactKey: Guid(9d0e73dbf5dfc6e4e800cbe52651ac4d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Downloaded assets/AurynSky/Gems Ultimate Pack/Models/HardStar.fbx using Guid(9d0e73dbf5dfc6e4e800cbe52651ac4d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+ -> (artifact id: 'a42b22c19f4309593e82f2cfe29032dc') in 0.038999 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Prepare
+Caller must complete domain reload
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.518 seconds
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.904 seconds
+Domain Reload Profiling: 1420ms
+	BeginReloadAssembly (175ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (6ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (38ms)
+	RebuildCommonClasses (31ms)
+	RebuildNativeTypeToScriptingClass (12ms)
+	initialDomainReloadingComplete (31ms)
+	LoadAllAssembliesAndSetupDomain (265ms)
+		LoadAssemblies (336ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (21ms)
+			TypeCache.Refresh (8ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (7ms)
+			ResolveRequiredComponents (4ms)
+	FinalizeReload (904ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (377ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (8ms)
+			SetLoadedEditorAssemblies (4ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (51ms)
+			ProcessInitializeOnLoadAttributes (287ms)
+			ProcessInitializeOnLoadMethodAttributes (23ms)
+			AfterProcessingInitializeOnLoad (5ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (8ms)
+Refreshing native plugins compatible for Editor in 4.83 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3094 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 14 unused Assets / (28.6 KB). Loaded Objects now: 3692.
+Memory consumption went from 118.3 MB to 118.3 MB.
+Total: 2.626600 ms (FindLiveObjects: 0.186200 ms CreateObjectMapping: 0.076000 ms MarkObjects: 2.328600 ms  DeleteObjects: 0.034900 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:scripting/monoscript/fileName/Holding items.cs: b21687ddb03d73bd9f0c1daecb9714de -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:scripting/monoscript/fileName/NewBehaviourScript.cs: 854be57a593bde74a27cc6a4e94cf976 -> 
+  custom:scripting/monoscript/fileName/Holding.cs: 3eedfd2bf1b819c32b42ba393e582fef -> 
+  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/ObjectPickup.cs: bf6860b91a9e46fa73af4f21d4357242 -> 
+  custom:scripting/monoscript/fileName/Movement.cs: f4b8b2d2a1de9c50c30687c0a002a10c -> 1bc12bc9370e727baa54e145392501fb
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/precompiled-assembly-types:Assembly-CSharp: 006f7ba45a85b8117147aa1e66938c79 -> 0c028cdeb79e7e69c2c6465800534e76

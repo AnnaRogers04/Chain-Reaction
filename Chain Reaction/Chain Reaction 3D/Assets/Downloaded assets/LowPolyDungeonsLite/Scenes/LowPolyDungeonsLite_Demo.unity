@@ -9285,6 +9285,10 @@ PrefabInstance:
       value: YellowG
       objectReference: {fileID: 0}
     - target: {fileID: 100000, guid: 8b4719f3fd5020040bdbb5595fda39aa, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 8b4719f3fd5020040bdbb5595fda39aa, type: 3}
       propertyPath: m_TagString
       value: Gems
       objectReference: {fileID: 0}
@@ -9457,6 +9461,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: aa56074584965524093e852b02a99de7, type: 3}
       propertyPath: m_Name
       value: RedG
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: aa56074584965524093e852b02a99de7, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 100000, guid: aa56074584965524093e852b02a99de7, type: 3}
       propertyPath: m_TagString
@@ -26992,6 +27000,10 @@ PrefabInstance:
       value: GreenG
       objectReference: {fileID: 0}
     - target: {fileID: 1000013105924406, guid: 6a7274aefcc6cef4fbbfba924cc7f657, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 1000013105924406, guid: 6a7274aefcc6cef4fbbfba924cc7f657, type: 3}
       propertyPath: m_TagString
       value: Gems
       objectReference: {fileID: 0}
@@ -36681,6 +36693,10 @@ PrefabInstance:
       value: BlueG
       objectReference: {fileID: 0}
     - target: {fileID: 100000, guid: 3be870bd3141f9741b70abdfb4242cb6, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 3be870bd3141f9741b70abdfb4242cb6, type: 3}
       propertyPath: m_TagString
       value: Gems
       objectReference: {fileID: 0}
@@ -41879,7 +41895,6 @@ GameObject:
   - component: {fileID: 1947151108}
   - component: {fileID: 1947151107}
   - component: {fileID: 1947151106}
-  - component: {fileID: 1947151111}
   - component: {fileID: 1947151104}
   - component: {fileID: 1947151109}
   - component: {fileID: 1947151103}
@@ -42059,20 +42074,6 @@ CharacterController:
   m_SkinWidth: 0.08
   m_MinMoveDistance: 0.001
   m_Center: {x: 0, y: 0, z: 0}
---- !u!114 &1947151111
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1947151102}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f5aa18bcdf8efe54caea5b21fb02c67d, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  pickupRange: 2
-  holdPosition: {fileID: 1094339428}
 --- !u!1 &1949550765 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 7779381877309823848, guid: 2f6c4572e07a60b43b00e1c4f489a806, type: 3}
