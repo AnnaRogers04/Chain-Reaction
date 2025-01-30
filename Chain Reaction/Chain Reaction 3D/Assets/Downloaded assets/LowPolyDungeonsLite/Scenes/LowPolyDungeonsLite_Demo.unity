@@ -7565,8 +7565,7 @@ PrefabInstance:
       propertyPath: m_Name
       value: Column_01
       objectReference: {fileID: 0}
-    m_RemovedComponents:
-    - {fileID: 5364512601293629222, guid: 2f3f7d4927009b84583c02fcbc509217, type: 3}
+    m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents:
@@ -9285,6 +9284,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: YellowG
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 8b4719f3fd5020040bdbb5595fda39aa, type: 3}
+      propertyPath: m_TagString
+      value: Gems
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 8b4719f3fd5020040bdbb5595fda39aa, type: 3}
       propertyPath: m_LocalScale.x
       value: 0.21377546
@@ -9454,6 +9457,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: aa56074584965524093e852b02a99de7, type: 3}
       propertyPath: m_Name
       value: RedG
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: aa56074584965524093e852b02a99de7, type: 3}
+      propertyPath: m_TagString
+      value: Gems
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: aa56074584965524093e852b02a99de7, type: 3}
       propertyPath: m_LocalScale.x
@@ -23303,8 +23310,8 @@ Transform:
   m_GameObject: {fileID: 1094339427}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -0.709, y: -0, z: 1.17}
-  m_LocalScale: {x: 1.3037338, y: 0.45012218, z: 0.45012215}
+  m_LocalPosition: {x: -0.078, y: -0, z: 0.593}
+  m_LocalScale: {x: 1.3037338, y: 0.45012218, z: 0.78168213}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1947151108}
@@ -23364,7 +23371,7 @@ MeshRenderer:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1094339427}
-  m_Enabled: 1
+  m_Enabled: 0
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
@@ -26983,6 +26990,10 @@ PrefabInstance:
     - target: {fileID: 1000013105924406, guid: 6a7274aefcc6cef4fbbfba924cc7f657, type: 3}
       propertyPath: m_Name
       value: GreenG
+      objectReference: {fileID: 0}
+    - target: {fileID: 1000013105924406, guid: 6a7274aefcc6cef4fbbfba924cc7f657, type: 3}
+      propertyPath: m_TagString
+      value: Gems
       objectReference: {fileID: 0}
     - target: {fileID: 4000011148536180, guid: 6a7274aefcc6cef4fbbfba924cc7f657, type: 3}
       propertyPath: m_LocalScale.x
@@ -36668,6 +36679,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: 3be870bd3141f9741b70abdfb4242cb6, type: 3}
       propertyPath: m_Name
       value: BlueG
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 3be870bd3141f9741b70abdfb4242cb6, type: 3}
+      propertyPath: m_TagString
+      value: Gems
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 3be870bd3141f9741b70abdfb4242cb6, type: 3}
       propertyPath: m_LocalScale.x
