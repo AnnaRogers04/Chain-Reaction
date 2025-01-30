@@ -2431,3 +2431,106 @@ Start importing Assets/Downloaded assets/New Material.mat using Guid(2bfd4e18d11
  -> (artifact id: '3ff7b30814cfc2f9cfa75fa3e921181a') in 0.093849 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 1
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 4.58 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 1 unused Assets / (0.9 KB). Loaded Objects now: 3716.
+Memory consumption went from 75.8 MB to 75.8 MB.
+Total: 3.140800 ms (FindLiveObjects: 0.191700 ms CreateObjectMapping: 0.078500 ms MarkObjects: 2.847600 ms  DeleteObjects: 0.021600 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:scripting/monoscript/fileName/MainMenu.cs: c093076ba5753d7bec74a8a751ffb653 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:scripting/monoscript/fileName/RestartGame.cs: fdee70b68cf4176c64ab509d7e4ba321 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:scripting/monoscript/fileName/Cursor.cs: 8f85a035d21d41daa223a2d5c8c04d4c -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:scripting/monoscript/fileName/PlayGame.cs: 924fce8b7fd8849c4e5b4d8bf8af7bda -> 
+  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
+  custom:scripting/monoscript/fileName/AnimationScript.cs: 47818666ae55f1489ebc79a61732b352 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:scripting/monoscript/fileName/Gem.cs: 9b78c2f695a25690e3058d5901e95f65 -> 
+  custom:scripting/monoscript/fileName/EnableCursor.cs: 8f85a035d21d41daa223a2d5c8c04d4c -> 
+  custom:scripting/monoscript/fileName/Door.cs: 89da75c00dd875a160d70ad71da9a2a1 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:scripting/monoscript/fileName/pinkgem.cs: 6645cacb882f5c02788a02dd51171476 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:scripting/monoscript/fileName/GameConroller.cs: b39d91587c2553fd886ac9cec92f1e80 -> 
+  custom:scripting/monoscript/fileName/QuitGame.cs: 5b669f1f803e6c3e0b708e144b6aaea5 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/ObjectPickup.cs: bf6860b91a9e46fa73af4f21d4357242 -> 
+  custom:scripting/monoscript/fileName/Movement.cs: 1bc12bc9370e727baa54e145392501fb -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/precompiled-assembly-types:Assembly-CSharp: 849817e6c37f8db90c9c5d3262c25efe -> 
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 3.12 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 1 unused Assets / (3.1 KB). Loaded Objects now: 3716.
+Memory consumption went from 76.0 MB to 76.0 MB.
+Total: 2.900400 ms (FindLiveObjects: 0.249400 ms CreateObjectMapping: 0.089100 ms MarkObjects: 2.539300 ms  DeleteObjects: 0.021900 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:scripting/monoscript/fileName/MainMenu.cs: c093076ba5753d7bec74a8a751ffb653 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:scripting/monoscript/fileName/RestartGame.cs: fdee70b68cf4176c64ab509d7e4ba321 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:scripting/monoscript/fileName/Cursor.cs: 8f85a035d21d41daa223a2d5c8c04d4c -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:scripting/monoscript/fileName/PlayGame.cs: 924fce8b7fd8849c4e5b4d8bf8af7bda -> 
+  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
+  custom:scripting/monoscript/fileName/AnimationScript.cs: 47818666ae55f1489ebc79a61732b352 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:scripting/monoscript/fileName/Gem.cs: 9b78c2f695a25690e3058d5901e95f65 -> 
+  custom:scripting/monoscript/fileName/EnableCursor.cs: 8f85a035d21d41daa223a2d5c8c04d4c -> 
+  custom:scripting/monoscript/fileName/Door.cs: 89da75c00dd875a160d70ad71da9a2a1 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:scripting/monoscript/fileName/pinkgem.cs: 6645cacb882f5c02788a02dd51171476 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:scripting/monoscript/fileName/GameConroller.cs: b39d91587c2553fd886ac9cec92f1e80 -> 
+  custom:scripting/monoscript/fileName/QuitGame.cs: 5b669f1f803e6c3e0b708e144b6aaea5 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/ObjectPickup.cs: bf6860b91a9e46fa73af4f21d4357242 -> 
+  custom:scripting/monoscript/fileName/Movement.cs: 1bc12bc9370e727baa54e145392501fb -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/precompiled-assembly-types:Assembly-CSharp: 849817e6c37f8db90c9c5d3262c25efe -> 
+========================================================================
+Received Import Request.
+  Time since last request: 334.012996 seconds.
+  path: Assets/Downloaded assets/Low Poly Pack - Environment Lite/Scenes
+  artifactKey: Guid(f6bfba2a6d1280041acdeb81304cc04d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Downloaded assets/Low Poly Pack - Environment Lite/Scenes using Guid(f6bfba2a6d1280041acdeb81304cc04d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+ -> (artifact id: '64608dc30bfc8aba0ab51c773613de57') in 0.001525 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.913826 seconds.
+  path: Assets/Downloaded assets/Low Poly Pack - Environment Lite/Scenes/Environment.unity
+  artifactKey: Guid(eca1d745e74c8854faa7b7eb71473e4f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Downloaded assets/Low Poly Pack - Environment Lite/Scenes/Environment.unity using Guid(eca1d745e74c8854faa7b7eb71473e4f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+ -> (artifact id: 'd2c8212813eef90cbf589bc4a72c5090') in 0.000882 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 5.075148 seconds.
+  path: Assets/Downloaded assets/LowPolyDungeonsLite/Scenes/GameScreen.unity
+  artifactKey: Guid(8fdb66b3d5f94c2488dec767fb72a89e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Downloaded assets/LowPolyDungeonsLite/Scenes/GameScreen.unity using Guid(8fdb66b3d5f94c2488dec767fb72a89e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+ -> (artifact id: 'a63f5b7877e4445dba94408b55fc97f0') in 0.000767 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0

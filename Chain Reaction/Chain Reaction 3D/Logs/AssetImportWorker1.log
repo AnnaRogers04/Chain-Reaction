@@ -2244,3 +2244,79 @@ AssetImportParameters requested are different than current active one (requested
   custom:scripting/monoscript/fileName/Movement.cs: 1bc12bc9370e727baa54e145392501fb -> 
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
   custom:scripting/precompiled-assembly-types:Assembly-CSharp: 849817e6c37f8db90c9c5d3262c25efe -> 
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 4.76 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 1 unused Assets / (3.1 KB). Loaded Objects now: 3682.
+Memory consumption went from 76.1 MB to 76.1 MB.
+Total: 3.104700 ms (FindLiveObjects: 0.186900 ms CreateObjectMapping: 0.085600 ms MarkObjects: 2.811000 ms  DeleteObjects: 0.019900 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:scripting/monoscript/fileName/MainMenu.cs: c093076ba5753d7bec74a8a751ffb653 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:scripting/monoscript/fileName/RestartGame.cs: fdee70b68cf4176c64ab509d7e4ba321 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:scripting/monoscript/fileName/Cursor.cs: 8f85a035d21d41daa223a2d5c8c04d4c -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:scripting/monoscript/fileName/PlayGame.cs: 924fce8b7fd8849c4e5b4d8bf8af7bda -> 
+  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
+  custom:scripting/monoscript/fileName/AnimationScript.cs: 47818666ae55f1489ebc79a61732b352 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:scripting/monoscript/fileName/Gem.cs: 9b78c2f695a25690e3058d5901e95f65 -> 
+  custom:scripting/monoscript/fileName/EnableCursor.cs: 8f85a035d21d41daa223a2d5c8c04d4c -> 
+  custom:scripting/monoscript/fileName/Door.cs: 89da75c00dd875a160d70ad71da9a2a1 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:scripting/monoscript/fileName/pinkgem.cs: 6645cacb882f5c02788a02dd51171476 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:scripting/monoscript/fileName/GameConroller.cs: b39d91587c2553fd886ac9cec92f1e80 -> 
+  custom:scripting/monoscript/fileName/QuitGame.cs: 5b669f1f803e6c3e0b708e144b6aaea5 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/ObjectPickup.cs: bf6860b91a9e46fa73af4f21d4357242 -> 
+  custom:scripting/monoscript/fileName/Movement.cs: 1bc12bc9370e727baa54e145392501fb -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/precompiled-assembly-types:Assembly-CSharp: 849817e6c37f8db90c9c5d3262c25efe -> 
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 3.41 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 1 unused Assets / (3.1 KB). Loaded Objects now: 3682.
+Memory consumption went from 75.7 MB to 75.7 MB.
+Total: 4.395400 ms (FindLiveObjects: 0.340600 ms CreateObjectMapping: 0.096400 ms MarkObjects: 3.927600 ms  DeleteObjects: 0.028500 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:scripting/monoscript/fileName/MainMenu.cs: c093076ba5753d7bec74a8a751ffb653 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:scripting/monoscript/fileName/RestartGame.cs: fdee70b68cf4176c64ab509d7e4ba321 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:scripting/monoscript/fileName/Cursor.cs: 8f85a035d21d41daa223a2d5c8c04d4c -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:scripting/monoscript/fileName/PlayGame.cs: 924fce8b7fd8849c4e5b4d8bf8af7bda -> 
+  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
+  custom:scripting/monoscript/fileName/AnimationScript.cs: 47818666ae55f1489ebc79a61732b352 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:scripting/monoscript/fileName/Gem.cs: 9b78c2f695a25690e3058d5901e95f65 -> 
+  custom:scripting/monoscript/fileName/EnableCursor.cs: 8f85a035d21d41daa223a2d5c8c04d4c -> 
+  custom:scripting/monoscript/fileName/Door.cs: 89da75c00dd875a160d70ad71da9a2a1 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:scripting/monoscript/fileName/pinkgem.cs: 6645cacb882f5c02788a02dd51171476 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:scripting/monoscript/fileName/GameConroller.cs: b39d91587c2553fd886ac9cec92f1e80 -> 
+  custom:scripting/monoscript/fileName/QuitGame.cs: 5b669f1f803e6c3e0b708e144b6aaea5 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/ObjectPickup.cs: bf6860b91a9e46fa73af4f21d4357242 -> 
+  custom:scripting/monoscript/fileName/Movement.cs: 1bc12bc9370e727baa54e145392501fb -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/precompiled-assembly-types:Assembly-CSharp: 849817e6c37f8db90c9c5d3262c25efe -> 
