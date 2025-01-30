@@ -2,7 +2,6 @@ using UnityEngine;
 
 public class ObjectPickup : MonoBehaviour
 {
-//    LayerMask _layerMask = LayerMask.GetMask("PickUp");
     private void Update()
     {
         if (Input.GetKeyDown(KeyCode.E))
@@ -15,8 +14,9 @@ public class ObjectPickup : MonoBehaviour
                
                 if (hit.collider.CompareTag("Gems"))
                 {
-                    hit.collider.gameObject.InteractWithGem();
+                    hit.collider.GetComponent<Gem>().InteractWithGem();
                     Destroy(hit.collider.gameObject); 
+                    hit.collider.GetComponent<Gem>().OpenDoor();
                     Debug.Log("Gems Hit");
                 }
             }
