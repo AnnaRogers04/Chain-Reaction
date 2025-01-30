@@ -1,16 +1,22 @@
 using UnityEngine;
-
 public class Door : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
+    public void OpenDoor()
     {
-        
+        Debug.Log("Door is opening...");
+    }
+    public void SubscribeToGem(Gem gem)
+    {
+        gem.OnGemActivated += OpenDoor;
+    }
+    
+    public void UnsubscribeFromGem(Gem gem)
+    {
+        gem.OnGemActivated -= OpenDoor;
     }
 
-    // Update is called once per frame
-    void Update()
+    private void DestroyGameObject()
     {
-        
+        Destroy(gameObject);
     }
 }

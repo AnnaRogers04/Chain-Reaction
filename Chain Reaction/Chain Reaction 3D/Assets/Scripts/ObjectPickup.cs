@@ -15,6 +15,7 @@ public class ObjectPickup : MonoBehaviour
                
                 if (hit.collider.CompareTag("Gems"))
                 {
+                    hit.collider.gameObject.InteractWithGem();
                     Destroy(hit.collider.gameObject); 
                     Debug.Log("Gems Hit");
                 }
